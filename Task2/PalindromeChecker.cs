@@ -1,6 +1,5 @@
 public class PalindromeChecker{
-    public static bool IsPalindrome(string input)
-    {
+    public static bool IsPalindrome(string input){
         if (string.IsNullOrWhiteSpace(input))
             return false;
 
@@ -9,8 +8,7 @@ public class PalindromeChecker{
         int left = 0;
         int right = cleaned.Length - 1;
 
-        while (left < right)
-        {
+        while (left < right){
             if (cleaned[left] != cleaned[right])
                 return false;
 
