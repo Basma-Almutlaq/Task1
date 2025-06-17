@@ -10,7 +10,7 @@ public class App {
 		int choice;
 		
 		do {
-			System.out.println("1. Add Contact");
+	    System.out.println("1. Add Contact");
             System.out.println("2. List Contacts");
             System.out.println("3. Exit");
             System.out.print("Enter your choice: ");
