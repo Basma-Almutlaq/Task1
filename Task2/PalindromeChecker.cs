@@ -1,3 +1,5 @@
+using System.Text.RegularExpressions;
+
 public class PalindromeChecker
 {
     public static bool IsPalindrome(string input)
@@ -20,6 +22,13 @@ public class PalindromeChecker
         }
 
         return true;
+    }
+
+    public static void Main()
+    {
+        Console.WriteLine(IsPalindrome("Racecar"));           // True
+        Console.WriteLine(IsPalindrome("A man, a plan, a canal, Panama")); // True
+        Console.WriteLine(IsPalindrome("Hello"));             // False
     }
     
 }
